@@ -13,7 +13,7 @@
         </commentGenerator>
         <!-- specify how to connect to the target database -->
         <jdbcConnection driverClass="org.postgresql.Driver"
-            connectionURL="jdbc:postgresql://localhost:5432/logistics" userId="postgres" password="123456">
+            connectionURL="jdbc:postgresql://localhost:5432/logistics" userId="postgres" password="xj01280227">
         </jdbcConnection>
         <!-- specify target package and target project for generated Java model objects -->
         <javaModelGenerator targetPackage="cn.edu.tju.tiei.logistics.model" targetProject="src/main/java">

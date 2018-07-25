@@ -15,6 +15,10 @@
     </environment>
   </environments>
   <mappers>
+    <mapper resource="cn/edu/tju/tiei/logistics/mapping/BidMapper.xml"/>
+    <mapper resource="cn/edu/tju/tiei/logistics/mapping/CarrierMapper.xml"/>
+    <mapper resource="cn/edu/tju/tiei/logistics/mapping/ShipperMapper.xml"/>
     <mapper resource="cn/edu/tju/tiei/logistics/mapping/UsrMapper.xml"/>
+    <mapper resource="cn/edu/tju/tiei/logistics/mapping/WaybillMapper.xml"/>
   </mappers>
 </configuration>

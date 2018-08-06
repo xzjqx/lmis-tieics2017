@@ -2,7 +2,7 @@
 
 ## 1. Background and Project Description
 
-###1.1 Background
+### 1.1 Background
 
 ​	We create a database named ‘logistics’, which is used by the logistics platform. The database include five tables: shipper, carrier, waybill, bid and usr. Requirement analysis:
 
@@ -19,15 +19,11 @@
 
 ​	In Database class, we had built the framework of ‘Logistics’ project. The process is as follows:
 
-1)     Create a new Maven project in eclipse;
-
-2)     Add related dependencies and plugins in pom.xml, such as Spring-Core and Mybatis Generator;
-
-3)     Configure the connection to the database in the spring framework;
-
-4)     Write mybatis-generator(generatorConfig.xml) code to auto-generate object-relational mapping files;
-
-5)     Add services for the table ‘usr’ by using above object-relational mapping files.
+- Create a new Maven project in eclipse;
+- Add related dependencies and plugins in pom.xml, such as Spring-Core and Mybatis Generator;
+- Configure the connection to the database in the spring framework;
+- Write mybatis-generator(generatorConfig.xml) code to auto-generate object-relational mapping files;
+-  Add services for the table ‘usr’ by using above object-relational mapping files.
 
 ​	In the rest of this project, we will add services and controllers for the other 4 tables and test the functionalities of the backend database by using Postman.
 
@@ -37,15 +33,15 @@
 
 #### 2.1.1 Use Case Diagram
 
-![Fig. 1. The relationship of usr, shipper and carrier](C:\Users\xzjqx\Desktop\Study\Database\logistics\lmis-tieics2017\images\usr.jpg)
+![Fig. 1. The relationship of usr, shipper and carrier](https://github.com/xzjqx/lmis-tieics2017/blob/master/images/usr.jpg)
 
 
 
-![Fig. 2. Waybill Management](C:\Users\xzjqx\Desktop\Study\Database\logistics\lmis-tieics2017\images\WaybillSystem.jpg)
+![Fig. 2. Waybill Management](https://github.com/xzjqx/lmis-tieics2017/blob/master/images/WaybillSystem.jpg)
 
 
 
-![Fig. 3. Subsystem of Waybill Management](C:\Users\xzjqx\Desktop\Study\Database\logistics\lmis-tieics2017\images\WaybillSubSystem.jpg)
+![Fig. 3. Subsystem of Waybill Management](https://github.com/xzjqx/lmis-tieics2017/blob/master/images/WaybillSubSystem.jpg)
 
 #### 2.1.2 Use Case Description
 
@@ -89,7 +85,7 @@
 
 #### 2.1.1 Use Case Diagram
 
-![Fig. 4. Use Case Diagram of ‘usr’ class](C:\Users\xzjqx\Desktop\Study\Database\logistics\lmis-tieics2017\images\usrUseCase.jpg)
+![Fig. 4. Use Case Diagram of ‘usr’ class](https://github.com/xzjqx/lmis-tieics2017/blob/master/images/usrUseCase.jpg)
 
 #### 2.1.2 Use Case Description
 
